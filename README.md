@@ -9,11 +9,11 @@ SNPGram21 includes 100 Whole Slide Gram Stain Images used in the clinical invest
 
 
 # Download
-The link to the current version of the dataset will be available soon.
+The link to the current version of the dataset is available here: <p><a href=" https://doi.org/10.48610/afac7f6"> https://doi.org/10.48610/afac7f6</a></p>.
 
 Folder (WSI) contains:
 - Compressed 100 WSIs in JPEG format, and
-- Their associated cell level bounding box annotations in seperate '.Json' files
+- Their associated cell level bounding box annotations in separate '.Json' files
 
 Folder (Tiles) contains:
 - Cropped WSI 
@@ -24,12 +24,13 @@ Folder (Tiles) contains:
 # Citation
 Please cite the following paper when using this data for your research:
 ```latex
-@inproceedings{alhammad2022efficient,
-  title={Efficient Cell Labelling for Gram Stain WSIs},
-  author={Alhammad, Sarah and Zhang, Teng and Zhao, Kun and Hobson, Peter and Jennings, Anthony and Lovell, Brian C},
-  booktitle={2022 26th International Conference on Pattern Recognition (ICPR)},
-  pages={ -- },
+@INPROCEEDINGS{9956490,
+  author={Alhammad, Sarah and Zhang, Teng and Zhao, Kun and Hobson, Peter and Jennings, Anthony and Lovell, Brian C.},
+  booktitle={2022 26th International Conference on Pattern Recognition (ICPR)}, 
+  title={Efficient Cell Labelling for Gram Stain WSIs}, 
   year={2022},
-  organization={IEEE}
-} 
+  volume={},
+  number={},
+  pages={4226-4233},
+  doi={10.1109/ICPR56361.2022.9956490}}
 ```
